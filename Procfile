@@ -1,1 +1,1 @@
-web: java -jar target/classes/me/dev/API_development/ApiDevelopmentApplication.class
+web: java -jar target/API-development-0.0.1-SNAPSHOT.jar
