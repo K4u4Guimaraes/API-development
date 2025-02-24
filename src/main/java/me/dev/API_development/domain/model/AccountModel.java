@@ -8,6 +8,7 @@ import java.util.UUID;
 @Entity(name = "tb_account")
 public class AccountModel {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
