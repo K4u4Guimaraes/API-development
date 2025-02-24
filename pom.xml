@@ -78,14 +78,15 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
-				<version>3.1.0</version> <!-- Pode usar a versão mais recente -->
+				<version>3.1.0</version>
 				<executions>
 					<execution>
 						<goals>
-							<goal>java</goal> <!-- Define que queremos rodar uma classe Java -->
+							<goal>java</goal> <!-- Definindo que queremos rodar uma classe Java -->
 						</goals>
 						<configuration>
-							<mainClass>me.dev.API_development.ApiDevelopmentApplication</mainClass> <!-- Substitua pelo nome da sua classe principal -->
+							<mainClass>me.dev.API_development.ApiDevelopmentApplication</mainClass> <!-- Classe principal do Spring Boot -->
+							<classpathScope>runtime</classpathScope>
 						</configuration>
 					</execution>
 				</executions>
