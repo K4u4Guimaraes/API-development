@@ -1,0 +1,1 @@
+web: java -jar target/classes/me/dev/API_development/ApiDevelopmentApplication.class
